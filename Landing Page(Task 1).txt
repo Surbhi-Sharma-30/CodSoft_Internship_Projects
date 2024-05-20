@@ -1,0 +1,168 @@
+HTML Codes
+**************************************************************************************************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<title>Surbhi Landing Page</title>
+</head>
+<body>
+<header>
+<h1>SURBHI SHARMA</h1>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section class="home" id="home">
+<div class="home">
+<h2>Welcome to My Landing Page</h2>
+<a href="#" class="cta-button">Know More</a>
+</div>
+</section>
+<section class="about" id="about">
+<div class="about">
+<h2>Hello World</h2>
+<p>I'm Surbhi, I'm  BCA Graduate, I'm on a mission to explore the realms of front-end and back-end technologies,
+    from HTML, CSS, Node.js and databases. The pursuit of knowledge is at the core of my personality,
+    I believe in the power of learning and staying updated with the latest trends in technology.</p>
+<a href="#" class="cta-button">Hire Me</a>
+</div>
+</section>
+<section class="projects" id="projects">
+    <h2 class="heading">My Last Projects</h2>
+    <div class="projects">
+    <img src="Alert and Calculator Page.jpg"><img src="landing pages.jpg">
+    </div>
+    </div>
+    <div class="projects">
+    <div class="projects-box">
+    <img src="Cognifyz login page.jpg"><img src="Image gallery and slideshow.jpg">
+    </div>
+    </div>
+    <div class="projects">
+    <div class="projects-box">
+    <img src="About Page.jpg"><img src="registration page.jpg">
+    </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+<div class="contact">
+<footer>
+<p>
+&copy; Surbhi Sharma </br>
+All rights reserved.
+</p>
+</footer>
+</div>
+</section>
+</body>
+</html>
+*************************************************************************************************************************************
+
+CSS Codes
+*************************************************************************************************************************************
+body,
+h1,h2,p,ul,li {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: Arial, sans-serif;
+}
+header {
+background-color: black;
+color: #fff;
+padding: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header h1 {
+    color: #ff6600;
+}
+nav ul {
+list-style: none;
+display: flex;
+}
+nav li {
+margin-right: 20px;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.home {
+background-image: url("Landing\ page\ image.jpg");
+background-size: cover;
+text-align: center;
+padding: 140px 0;
+color: #fff;
+}
+.home h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+.about {
+    background-image: url("Landing\ page\ image.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 140px 0;
+    color: #fff;
+}
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.projects {
+    background-image: url("Landing\ page\ image.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 140px 0;
+    color: #fff;
+}
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.projects img {
+    text-align: center;
+    padding: none;
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    margin: none;
+    cursor: pointer;
+    border: 5px solid transparent;
+}
+.cta-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #ff6600;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+footer {
+background-color: black;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+}
+*****************************************************************************************************************************************
